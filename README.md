@@ -1,13 +1,13 @@
 # IOCContainer
 
 
-IOCContainer is a simple container for Swift to make Dependency Injection (DI) easier.
+IOCContainer is a simple container for Swift to make Dependency Injection easier.
 
 It helps your app split into loosely-coupled components, which can be developed, tested and maintained more easily.
 
 ## Requirements
 
-- Swift 5.x+
+- Swift 5.0+
 - Xcode 11.7+
 
 ## Installation
