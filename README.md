@@ -7,7 +7,7 @@ It helps your app split into loosely-coupled components, which can be developed,
 
 ## Requirements
 
-- Swift 5.0+
+- Swift 5.2+
 - Xcode 11.7+
 
 ## Installation
@@ -56,11 +56,7 @@ class Car: Vehicle {
         self.type = type
     }
 }
-```
 
-and
-
-```swift
 protocol Person {
     func drive()
 }
@@ -78,7 +74,7 @@ class VehicleOwner: Person {
 }
 ```
 
-Then get an instance of a service from the container. The person is resolved to a car owner, and prints that it is driving a Mercedes car:
+Then get an instance of a Person instance from the container. The person is resolved to a car owner thanks for the previous registration, and prints that it is driving a Mercedes car:
 
 ```swift
 let person = try! container.resolve(Person.self)
@@ -88,6 +84,6 @@ person.drive() // prints "Driving Mercedes."
 
 ## Example App
 
-The repo includes  IOSContainerExample which demostrates using the library in a simple project including use in unit tests.
+The repo includes  IOCContainerExample which demostrates using the library in a simple project including use in unit tests.
 
 
