@@ -1,0 +1,16 @@
+{
+  "object": {
+    "pins": [
+      {
+        "package": "IOCContainer",
+        "repositoryURL": "https://github.com/mirekp/IOCContainer.git",
+        "state": {
+          "branch": null,
+          "revision": "2bc9ff3110d6c74705c7b8420dcf49cb6151943d",
+          "version": "1.0.0"
+        }
+      }
+    ]
+  },
+  "version": 1
+}
