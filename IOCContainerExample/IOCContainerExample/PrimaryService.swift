@@ -1,6 +1,6 @@
 //
 //  PrimaryService.swift
-//  IOContainerExample
+//  IOCContainerExample
 //
 //  Created by Mirek Petricek on 16/11/2020.
 //  Copyright © 2020 Dependency Injection Limited. All rights reserved.
@@ -27,6 +27,7 @@ class PrimaryService {
     }
     
     func start() {
+        print("PrimaryService start() called")
         service?.doSomething()
     }
 }

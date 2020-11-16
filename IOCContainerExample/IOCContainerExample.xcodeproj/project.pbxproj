@@ -25,12 +25,12 @@
 			containerPortal = FD0CA362256286FC007BF984 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = FD0CA369256286FC007BF984;
-			remoteInfo = IOContainerExample;
+			remoteInfo = IOCContainerExample;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		FD0CA36A256286FC007BF984 /* IOContainerExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IOContainerExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FD0CA36A256286FC007BF984 /* IOCContainerExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IOCContainerExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FD0CA36D256286FC007BF984 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FD0CA36F256286FC007BF984 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		FD0CA371256286FC007BF984 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -38,7 +38,7 @@
 		FD0CA376256286FE007BF984 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FD0CA379256286FE007BF984 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FD0CA37B256286FE007BF984 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		FD0CA380256286FE007BF984 /* IOContainerExampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = IOContainerExampleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FD0CA380256286FE007BF984 /* IOCContainerExampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = IOCContainerExampleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FD0CA384256286FE007BF984 /* PrimaryServiceTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrimaryServiceTests.swift; sourceTree = "<group>"; };
 		FD0CA386256286FE007BF984 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FD0CA392256287F7007BF984 /* PrimaryService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrimaryService.swift; sourceTree = "<group>"; };
@@ -67,8 +67,8 @@
 		FD0CA361256286FC007BF984 = {
 			isa = PBXGroup;
 			children = (
-				FD0CA36C256286FC007BF984 /* IOContainerExample */,
-				FD0CA383256286FE007BF984 /* IOContainerExampleTests */,
+				FD0CA36C256286FC007BF984 /* IOCContainerExample */,
+				FD0CA383256286FE007BF984 /* IOCContainerExampleTests */,
 				FD0CA36B256286FC007BF984 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -76,13 +76,13 @@
 		FD0CA36B256286FC007BF984 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				FD0CA36A256286FC007BF984 /* IOContainerExample.app */,
-				FD0CA380256286FE007BF984 /* IOContainerExampleTests.xctest */,
+				FD0CA36A256286FC007BF984 /* IOCContainerExample.app */,
+				FD0CA380256286FE007BF984 /* IOCContainerExampleTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		FD0CA36C256286FC007BF984 /* IOContainerExample */ = {
+		FD0CA36C256286FC007BF984 /* IOCContainerExample */ = {
 			isa = PBXGroup;
 			children = (
 				FD0CA36D256286FC007BF984 /* AppDelegate.swift */,
@@ -95,24 +95,24 @@
 				FD0CA392256287F7007BF984 /* PrimaryService.swift */,
 				FD0CA39425628E06007BF984 /* SecondaryService.swift */,
 			);
-			path = IOContainerExample;
+			path = IOCContainerExample;
 			sourceTree = "<group>";
 		};
-		FD0CA383256286FE007BF984 /* IOContainerExampleTests */ = {
+		FD0CA383256286FE007BF984 /* IOCContainerExampleTests */ = {
 			isa = PBXGroup;
 			children = (
 				FD0CA384256286FE007BF984 /* PrimaryServiceTests.swift */,
 				FD0CA386256286FE007BF984 /* Info.plist */,
 			);
-			path = IOContainerExampleTests;
+			path = IOCContainerExampleTests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		FD0CA369256286FC007BF984 /* IOContainerExample */ = {
+		FD0CA369256286FC007BF984 /* IOCContainerExample */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = FD0CA389256286FE007BF984 /* Build configuration list for PBXNativeTarget "IOContainerExample" */;
+			buildConfigurationList = FD0CA389256286FE007BF984 /* Build configuration list for PBXNativeTarget "IOCContainerExample" */;
 			buildPhases = (
 				FD0CA366256286FC007BF984 /* Sources */,
 				FD0CA367256286FC007BF984 /* Frameworks */,
@@ -122,17 +122,17 @@
 			);
 			dependencies = (
 			);
-			name = IOContainerExample;
+			name = IOCContainerExample;
 			packageProductDependencies = (
 				FD0CA39025628710007BF984 /* IOCContainer */,
 			);
-			productName = IOContainerExample;
-			productReference = FD0CA36A256286FC007BF984 /* IOContainerExample.app */;
+			productName = IOCContainerExample;
+			productReference = FD0CA36A256286FC007BF984 /* IOCContainerExample.app */;
 			productType = "com.apple.product-type.application";
 		};
-		FD0CA37F256286FE007BF984 /* IOContainerExampleTests */ = {
+		FD0CA37F256286FE007BF984 /* IOCContainerExampleTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = FD0CA38C256286FE007BF984 /* Build configuration list for PBXNativeTarget "IOContainerExampleTests" */;
+			buildConfigurationList = FD0CA38C256286FE007BF984 /* Build configuration list for PBXNativeTarget "IOCContainerExampleTests" */;
 			buildPhases = (
 				FD0CA37C256286FE007BF984 /* Sources */,
 				FD0CA37D256286FE007BF984 /* Frameworks */,
@@ -143,9 +143,9 @@
 			dependencies = (
 				FD0CA382256286FE007BF984 /* PBXTargetDependency */,
 			);
-			name = IOContainerExampleTests;
-			productName = IOContainerExampleTests;
-			productReference = FD0CA380256286FE007BF984 /* IOContainerExampleTests.xctest */;
+			name = IOCContainerExampleTests;
+			productName = IOCContainerExampleTests;
+			productReference = FD0CA380256286FE007BF984 /* IOCContainerExampleTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -167,7 +167,7 @@
 					};
 				};
 			};
-			buildConfigurationList = FD0CA365256286FC007BF984 /* Build configuration list for PBXProject "IOContainerExample" */;
+			buildConfigurationList = FD0CA365256286FC007BF984 /* Build configuration list for PBXProject "IOCContainerExample" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -183,8 +183,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				FD0CA369256286FC007BF984 /* IOContainerExample */,
-				FD0CA37F256286FE007BF984 /* IOContainerExampleTests */,
+				FD0CA369256286FC007BF984 /* IOCContainerExample */,
+				FD0CA37F256286FE007BF984 /* IOCContainerExampleTests */,
 			);
 		};
 /* End PBXProject section */
@@ -235,7 +235,7 @@
 /* Begin PBXTargetDependency section */
 		FD0CA382256286FE007BF984 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = FD0CA369256286FC007BF984 /* IOContainerExample */;
+			target = FD0CA369256286FC007BF984 /* IOCContainerExample */;
 			targetProxy = FD0CA381256286FE007BF984 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -380,13 +380,13 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 9M2PVSJ7JD;
-				INFOPLIST_FILE = IOContainerExample/Info.plist;
+				INFOPLIST_FILE = IOCContainerExample/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = mpe.IOContainerExample;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = mpe.IOCContainerExample;
+				PRODUCT_NAME = IOCContainerExample;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -398,13 +398,13 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 9M2PVSJ7JD;
-				INFOPLIST_FILE = IOContainerExample/Info.plist;
+				INFOPLIST_FILE = IOCContainerExample/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = mpe.IOContainerExample;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = mpe.IOCContainerExample;
+				PRODUCT_NAME = IOCContainerExample;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -417,18 +417,18 @@
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 9M2PVSJ7JD;
-				INFOPLIST_FILE = IOContainerExampleTests/Info.plist;
+				INFOPLIST_FILE = IOCContainerExampleTests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 13.7;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = mpe.IOContainerExampleTests;
+				PRODUCT_BUNDLE_IDENTIFIER = mpe.IOCContainerExampleTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/IOContainerExample.app/IOContainerExample";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/IOCContainerExample.app/IOCContainerExample";
 			};
 			name = Debug;
 		};
@@ -439,25 +439,25 @@
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 9M2PVSJ7JD;
-				INFOPLIST_FILE = IOContainerExampleTests/Info.plist;
+				INFOPLIST_FILE = IOCContainerExampleTests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 13.7;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = mpe.IOContainerExampleTests;
+				PRODUCT_BUNDLE_IDENTIFIER = mpe.IOCContainerExampleTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/IOContainerExample.app/IOContainerExample";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/IOCContainerExample.app/IOCContainerExample";
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		FD0CA365256286FC007BF984 /* Build configuration list for PBXProject "IOContainerExample" */ = {
+		FD0CA365256286FC007BF984 /* Build configuration list for PBXProject "IOCContainerExample" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				FD0CA387256286FE007BF984 /* Debug */,
@@ -466,7 +466,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		FD0CA389256286FE007BF984 /* Build configuration list for PBXNativeTarget "IOContainerExample" */ = {
+		FD0CA389256286FE007BF984 /* Build configuration list for PBXNativeTarget "IOCContainerExample" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				FD0CA38A256286FE007BF984 /* Debug */,
@@ -475,7 +475,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		FD0CA38C256286FE007BF984 /* Build configuration list for PBXNativeTarget "IOContainerExampleTests" */ = {
+		FD0CA38C256286FE007BF984 /* Build configuration list for PBXNativeTarget "IOCContainerExampleTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				FD0CA38D256286FE007BF984 /* Debug */,

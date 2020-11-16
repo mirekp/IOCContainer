@@ -1,6 +1,6 @@
 //
 //  ViewController.swift
-//  IOContainerExample
+//  IOCContainerExample
 //
 //  Created by Mirek Petricek on 16/11/2020.
 //  Copyright © 2020 Dependency Injection Limited. All rights reserved.
@@ -9,25 +9,17 @@
 import UIKit
 import IOCContainer
 
-class MyService {
-    var realDoSomethingCalled = false
-    
-    func doSomething() {
-        realDoSomethingCalled = true
-    }
-}
-
 class ViewController: UIViewController {
     
     var container = Container()
-    var service: MyService?
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        container.register(MyService.self) { _ -> Any in
-            MyService()
+        container.register(PrimaryService.self) { [unowned self] _ -> Any in
+            PrimaryService(container: self.container)
         }
-        service = try? container.resolve()
+        let service = try! container.resolve(PrimaryService.self)
+        service.start()
     }
 }
 
